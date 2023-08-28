@@ -1,0 +1,123 @@
+.container{
+    max-width: 1480px;
+    padding: 20px;
+    margin: auto;
+}
+.top__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+select{
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+    color: #212121;
+    outline: none;
+}
+select option{
+    background-color: black;
+    color: white;
+}
+option:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #212121;
+}
+.App{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px 20px;
+}
+.card{
+    width: 259px;
+    height: 367px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    gap: 16px;
+}
+.card > img{
+    width: 257px;
+    height: 189px;
+    object-fit: contain;
+}
+.card__content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.type > span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #52057B;
+    background-color: #52057B1A;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-between;
+    gap: 15px 0;
+    margin-top: 5px;
+}
+.card__content > p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #212121;
+}
+.price-location{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.price-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-rating > p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #212121;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+.rating > span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #212121;
+}
+.location-sold{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+.location-sold  span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #828282;
+}
